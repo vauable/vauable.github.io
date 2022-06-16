@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>传感器期末复习</title>
+      <link href="/2022/06/16/%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A4%8D%E4%B9%A0/"/>
+      <url>/2022/06/16/%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A4%8D%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="期末传感器复习"><a href="#期末传感器复习" class="headerlink" title="期末传感器复习"></a>期末传感器复习</h1><h2 id="第一章传感器与检测技术概论"><a href="#第一章传感器与检测技术概论" class="headerlink" title="第一章传感器与检测技术概论"></a>第一章传感器与检测技术概论</h2><h3 id="1-1检测技术概论"><a href="#1-1检测技术概论" class="headerlink" title="1.1检测技术概论"></a>1.1检测技术概论</h3><p>1.测量：是以确定被测量值或获取测来给你结果为目的一系列操作。测量也就是将被测量与同种性质的标准量进行比较，确定被测量对标准量的倍数的活动；</p><p>​x&#x3D; nu</p><p>​n&#x3D; x&#x2F;u</p><p>上式中：x——被测量值</p><p>​  u——标准量，及测量单位</p><p>​ n——比值，含有测量误差</p><p>测量结果包括 ’比值 ‘与’测量结果’</p><h3 id="1-1-1测量方法"><a href="#1-1-1测量方法" class="headerlink" title="1.1.1测量方法"></a>1.1.1测量方法</h3><p>1.直接测量</p><p>不需要经过任何运算，直接得到被测量的数值</p><p>2.间接测量</p><p>在使用仪表或者传感器进行测量时，首先与被测量有确定的函数关系的几个量进行直接测量，将直接测得值代入函数关系式，经历计算得到所需要得结果</p><p>3.组合测量</p><p>若被测量必须经过求解联立方程组求得，则为组合测量</p><p>4.偏差式测量</p><p>用仪表位指针位移决定被测量的量值 </p><p>5.零位式测量</p><p>用指零仪表的零位反映测量系统的平衡状态，在测量系统平衡时，用已知的标准量决定被测量的量值</p><p>6.微差式测量</p><p>将被测量与已知的标准量相比较，取得差值后，再用偏差法测得此差值。</p><p>7.等精度测量</p><p>！！！！在整个测量过程中，若影响和决定误差大小的全部因素始终不变，如由同一个测量者，用同一台机器，用同样的方法，在同样的环境下，对同一被测量进行多次重复测量，则称为等精度测量，</p><p>1.1.2检测系统</p><p>1.检测系统构成</p><p>2.开环测量与闭环测量系统</p><h3 id="1-1-3测量误差"><a href="#1-1-3测量误差" class="headerlink" title="1.1.3测量误差"></a>1.1.3测量误差</h3><p>测量值—真值</p><p>1.绝对误差</p><p>2.实际相对误差</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 专业课 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网页设计（一）首页设计</title>
       <link href="/2022/06/12/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
       <url>/2022/06/12/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</url>
@@ -17,19 +36,6 @@
             <tag> 前端网页设计 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2022/06/11/%E4%BC%A0%E6%84%9F%E5%99%A8%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
-      <url>/2022/06/11/%E4%BC%A0%E6%84%9F%E5%99%A8%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>title: 传感器期末复习<br>date: 2022-06-11 15:41:44<br>tags: “传感器原理及其工程应用”</p><h1 id="期末传感器复习"><a href="#期末传感器复习" class="headerlink" title="期末传感器复习"></a>期末传感器复习</h1><h2 id="第一章传感器与检测技术概论"><a href="#第一章传感器与检测技术概论" class="headerlink" title="第一章传感器与检测技术概论"></a>第一章传感器与检测技术概论</h2><h3 id="1-1检测技术概论"><a href="#1-1检测技术概论" class="headerlink" title="1.1检测技术概论"></a>1.1检测技术概论</h3><p>1.测量：是以确定被测量值或获取测来给你结果为目的一系列操作。测量也就是将被测量与同种性质的标准量进行比较，确定被测量对标准量的倍数的活动；</p><p>​x&#x3D; nu</p><p>​n&#x3D; x&#x2F;u</p><p>上式中：x——被测量值</p><p>​  u——标准量，及测量单位</p><p>​ n——比值，含有测量误差</p><p>测量结果包括 ’比值 ‘与’测量结果’</p><h3 id="1-1-1测量方法"><a href="#1-1-1测量方法" class="headerlink" title="1.1.1测量方法"></a>1.1.1测量方法</h3><p>1.直接测量</p><p>不需要经过任何运算，直接得到被测量的数值</p><p>2.间接测量</p><p>在使用仪表或者传感器进行测量时，首先与被测量有确定的函数关系的几个量进行直接测量，将直接测得值代入函数关系式，经历计算得到所需要得结果</p><p>3.组合测量</p><p>若被测量必须经过求解联立方程组求得，则为组合测量</p><p>4.偏差式测量</p><p>用仪表位指针位移决定被测量的量值 </p><p>5.零位式测量</p><p>用指零仪表的零位反映测量系统的平衡状态，在测量系统平衡时，用已知的标准量决定被测量的量值</p><p>6.微差式测量</p><p>将被测量与已知的标准量相比较，取得差值后，再用偏差法测得此差值。</p><p>7.等精度测量</p><p>！！！！在整个测量过程中，若影响和决定误差大小的全部因素始终不变，如由同一个测量者，用同一台机器，用同样的方法，在同样的环境下，对同一被测量进行多次重复测量，则称为等精度测量，</p><p>1.1.2检测系统</p><p>1.检测系统构成</p><p>2.开环测量与闭环测量系统</p><h3 id="1-1-3测量误差"><a href="#1-1-3测量误差" class="headerlink" title="1.1.3测量误差"></a>1.1.3测量误差</h3><p>测量值—真值</p><p>1.绝对误差</p><p>2.实际相对误差</p>]]></content>
-      
-      
       
     </entry>
     

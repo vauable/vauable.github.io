@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>概率论知识点</title>
+      <link href="/2022/07/04/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+      <url>/2022/07/04/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%82%B9/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr><h1 id="Well-begun-is-half-done"><a href="#Well-begun-is-half-done" class="headerlink" title="Well begun is half done."></a>Well begun is half done.</h1><h1 id="问题总结"><a href="#问题总结" class="headerlink" title="问题总结"></a>问题总结</h1><h2 id="1-总体服从两点分布怎么求参数的矩估计和最大似然估计？"><a href="#1-总体服从两点分布怎么求参数的矩估计和最大似然估计？" class="headerlink" title="1.总体服从两点分布怎么求参数的矩估计和最大似然估计？"></a>1.总体服从两点分布怎么求参数的矩估计和最大似然估计？</h2><p>①解：由题设条件，P(xi&#x3D;i)&#x3D;(p^i)(1-p)^(1-i)，i&#x3D;0,1。<br>①矩估计。E(x)&#x3D;∑kp(xi&#x3D;i)&#x3D;0*(1-p)+1*p&#x3D;p，而样本均值x’&#x3D;(1&#x2F;n)∑xi，∴E(x)&#x3D;x’，p&#x3D;(1&#x2F;n)∑xi。<br>②似然估计。∵xi&#x3D;i，∴作似然函数L(xi,p)&#x3D;∏(p^xi)(1-p)^(1-xi)&#x3D;<a href="1-p">p^(∑xi)</a>^(n-∑xi)，求∂ln[L(xi,p)]&#x2F;∂p、并令其值为0，<br>∴(∑xi)&#x2F;p-(n-∑xi)&#x2F;(1-p)&#x3D;0，∴p&#x3D;(1&#x2F;n)∑xi。</p><h2 id="2-总体服从指数分布，参数未知，求解参数☼的矩估计"><a href="#2-总体服从指数分布，参数未知，求解参数☼的矩估计" class="headerlink" title="2.总体服从指数分布，参数未知，求解参数☼的矩估计"></a>2.总体服从指数分布，参数未知，求解参数☼的矩估计</h2><p><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.51wendang.com%2Fpic%2F7fc90cba11bbe7889dcb072b%2F7-810-jpg_6-1080-0-0-1080.jpg&refer=http%3A%2F%2Fwww.51wendang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659972966&t=e8d96bdc043aa2002af4677a2846724a"></p><h2 id="3-求矩估计量、矩估计值和极大似然估计值的详细过程是什么？"><a href="#3-求矩估计量、矩估计值和极大似然估计值的详细过程是什么？" class="headerlink" title="3.求矩估计量、矩估计值和极大似然估计值的详细过程是什么？"></a>3.求矩估计量、矩估计值和极大似然估计值的详细过程是什么？</h2><p>根据题目给出的概率密度函数，计算总体的原点矩（如果只有一个参数只要计算一阶原点矩，如果有两个参数要计算一阶和二阶）。由于有参数这里得到的都是带有参数的式子。如果题目给的是某一个常见的分布，就直接列出相应的原点矩（E(x)）。  </p><p>根据题目给出的样本。按照计算样本的原点矩，让总体的原点矩与样本的原点矩相等，解出参数。所得结果即为参数的矩估计值。</p><p>根据对应概率密度函数计算出似然函数，对似然函数L(x)取对数以方便求解。（由于对数函数是单调增函数，所以对似然函数取log后，与L(x)有相同的最大值点。）。</p><p>根据参数对所得的函数求导。如果有多个参数，则分别求偏导，令导数等于0（此时L(x)取到最大值），求出参数。此时所得结果即为参数的最大似然估计值。</p><p><img src="https://iknow-pic.cdn.bcebos.com/4034970a304e251fd709b485b786c9177e3e53d4"></p><h2 id="常见统计分布-EX与DX-总表"><a href="#常见统计分布-EX与DX-总表" class="headerlink" title="常见统计分布 EX与DX  总表"></a>常见统计分布 EX与DX  总表</h2><p><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pianshen.com%2Fimages%2F141%2F743fabe987b544295c0a0f049a384445.png&refer=http%3A%2F%2Fwww.pianshen.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659973025&t=9e0b924258a4d4dc03252b272612a3e2"></p><h2 id="矩估计、极大似然估计计算方法"><a href="#矩估计、极大似然估计计算方法" class="headerlink" title="矩估计、极大似然估计计算方法"></a>矩估计、极大似然估计计算方法</h2><p><img src="https://img-blog.csdnimg.cn/20200504232015121.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Bpa2FxaXUxMjMzMjExMjM=,size_16,color_FFFFFF,t_70"></p><p><img src="https://img-blog.csdnimg.cn/20200504231928916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Bpa2FxaXUxMjMzMjExMjM=,size_16,color_FFFFFF,t_70"></p><p><img src="https://img-blog.csdnimg.cn/20200504231906721.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3Bpa2FxaXUxMjMzMjExMjM=,size_16,color_FFFFFF,t_70"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>传感器期末复习</title>
       <link href="/2022/06/16/%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A4%8D%E4%B9%A0/"/>
       <url>/2022/06/16/%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A4%8D%E4%B9%A0/</url>
